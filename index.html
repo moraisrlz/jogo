@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jogo da Memória - Animais</title>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<h1>Jogo da Memória - Animais</h1>
+<div id="info">
+    <button id="reiniciar">Reiniciar</button>
+    <button id="resetar">Resetar</button>
+    <div>
+        Tempo: <span id="timer">60</span>s | 
+        Acertos: <span id="score">0</span>
+    </div>
+</div>
+<div class="game-area">
+    <div class="game-board" id="game-board"></div>
+</div>
+<div id="mensagem"></div>
+<audio id="som-erro" src="https://www.soundjay.com/buttons/sounds/button-10.mp3" preload="auto"></audio>
+<audio id="som-acerto" src="https://www.soundjay.com/buttons/sounds/button-3.mp3" preload="auto"></audio>
+<script src="index.js"></script>
+</body>
+</html>
